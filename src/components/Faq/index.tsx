@@ -6,61 +6,61 @@ const faqs = [
     id: 1,
     question: "Eu nunca vendi nada online. Esse curso é pra mim?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Sim! O curso foi pensado para quem está começando do zero. Você vai aprender passo a passo, com orientação prática e linguagem clara.",
   },
   {
     id: 2,
     question: "O curso é presencial ou online?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "100% presencial. As aulas acontecem em Marília/SP, com encontros semanais, práticas e acompanhamento individual.",
   },
   {
     id: 3,
     question: "Vou sair do curso já vendendo?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Sim — essa é a proposta. Durante as aulas, você vai criar seus anúncios, aplicar as estratégias e começar a vender de verdade, com o acompanhamento do mentor.",
   },
   {
     id: 4,
     question: "Em quais plataformas eu vou aprender a vender?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Você aprenderá a vender no Mercado Livre, Instagram e Facebook, além de entender como funciona o e-commerce de verdade.",
   },
   {
     id: 5,
     question: "E se eu não gostar do curso?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Você tem 7 dias de garantia total. Se participar da primeira aula e não sentir que o curso é pra você, devolvemos 100% do valor investido. Sem burocracia.",
   },
   {
     id: 6,
     question: "Qual o valor e forma de pagamento?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "O investimento é de R$ 897,00 em até 10x no cartão, ou R$ 797,00 à vista via Pix. Inclui certificado, grupo de suporte e materiais bônus.",
   },
   {
     id: 7,
     question: "Quantas pessoas tem na turma?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "As turmas são reduzidas, para garantir atenção individual. Vagas realmente limitadas.",
   },
   {
     id: 8,
     question: "Recebo algum certificado?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Sim! Ao final do curso, você recebe um certificado de conclusão reconhecendo sua participação e habilidades desenvolvidas.",
   },
   {
     id: 9,
     question: "Preciso ter um produto físico já?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Não precisa. Você pode participar mesmo sem produto. Vamos te ensinar como validar nichos e identificar produtos com demanda real.",
   },
   {
     id: 10,
     question: "Tem suporte fora das aulas?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id rutrum nunc, id cursus metus. Cras fringilla massa non hendrerit convallis. Sed eu libero molestie, iaculis odio sit amet, vestibulum tortor. Donec elit urna, molestie sit amet efficitur a, placerat nec dolor. In luctus justo eu urna faucibus, ac euismod leo tempus.",
+      "Sim. Você terá acesso a um grupo exclusivo no WhatsApp com o mentor e os colegas para tirar dúvidas e compartilhar resultados.",
   },
 ];
 

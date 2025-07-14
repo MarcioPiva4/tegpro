@@ -1,9 +1,13 @@
-'use client'
+import Assessment from "@/components/Assessment";
 import Faq from "@/components/Faq";
 
 export default function Home() {
 
   return (
-    <Faq></Faq>
+    <main>
+      <Assessment></Assessment>
+      <Faq></Faq>
+    </main>
+
   );
 }
