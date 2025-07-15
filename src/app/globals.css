@@ -5,6 +5,8 @@
   --primary: #C9A050;
   --secondary: #141414;
 
+  --gradient: linear-gradient(90deg,rgba(99, 79, 39, 1) 0%, rgba(201, 160, 80, 1) 50%, rgba(99, 79, 39, 1) 100%);
+
   --text-primary: #fff;
   --text-secondary: #1E1E1E;
 }
@@ -16,6 +18,7 @@
   --font-mono: var(--font-geist-mono);
   --secondary: var(--secondary);
   --text-secondary: var(--text-secondary);
+  --gradient: var(--gradient);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,4 +31,11 @@ body{
   background-color: var(--background);
   color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
+}
+
+.text-gradient{
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

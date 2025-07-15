@@ -26,9 +26,9 @@ export default function Assessment() {
   return (
     <section className="flex flex-col justify-center items-center p-5">
       <span className="text-[18px] text-[var(--primary)] uppercase mb-5">
-        Não acredita?
+        está duvidando??
       </span>
-      <h1 className="text-[32px] mb-10 uppercase">Olha o que estão dizendo</h1>
+      <h1 className="sm:text-[32px] text-[24px] mb-10 uppercase max-w-[500px] text-center">Eles também duvidaram. Agora estão vendendo.</h1>
 
       <div className="w-full max-w-[1200px] h-[500px] relative">
         <Swiper
