@@ -1,6 +1,6 @@
 export default function TableBenefits() {
   return (
-    <section className="py-10">
+    <section className="py-10 mb-10">
       <div className="w-full flex justify-center items-center flex-col px-10 relative">
         <h1 className="font-semibold sm:text-[32px] text-[24px] text-gradient text-center">
           Veja como o TegPro transforma sua realidade
