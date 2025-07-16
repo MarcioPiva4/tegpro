@@ -4,7 +4,7 @@ import LinkButton from "../Link"
 
 export default function SectionBanner(){
     return(
-        <section>
+        <section className="first-section">
             <div className="bg-[url('/background.png')] bg-cover bg-center text-white h-screen w-full flex justify-center items-center flex-col p-3 sm:p-5 relative">
                 <div className="text-center max-w-3xl">
                     <h1 className="font-black sm:text-[32px] text-[24px]">Domine o E-commerce e Venda de Verdade com o <span className="text-gradient">TegPro Marília</span></h1>

@@ -6,6 +6,7 @@
   --secondary: #141414;
 
   --gradient: linear-gradient(90deg,rgba(99, 79, 39, 1) 0%, rgba(201, 160, 80, 1) 50%, rgba(99, 79, 39, 1) 100%);
+  --gradient-2: linear-gradient(90deg,rgba(138, 138, 138, 1) 0%, rgba(240, 240, 240, 1) 50%, rgba(138, 138, 138, 1) 100%);
 
   --text-primary: #fff;
   --text-secondary: #1E1E1E;
@@ -19,6 +20,7 @@
   --secondary: var(--secondary);
   --text-secondary: var(--text-secondary);
   --gradient: var(--gradient);
+  --gradient-2: var(--gradient-2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,4 +40,15 @@ body{
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.text-gradient-2{
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.shadow-table {
+  box-shadow: 0 0 30px 0px #EBAF5626;
 }
