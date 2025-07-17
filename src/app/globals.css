@@ -7,6 +7,7 @@
 
   --gradient: linear-gradient(90deg,rgba(99, 79, 39, 1) 0%, rgba(201, 160, 80, 1) 50%, rgba(99, 79, 39, 1) 100%);
   --gradient-2: linear-gradient(90deg,rgba(138, 138, 138, 1) 0%, rgba(240, 240, 240, 1) 50%, rgba(138, 138, 138, 1) 100%);
+  --gradient-whatsapp: linear-gradient(180deg,rgba(0, 190, 50, 1) 0%, rgba(64, 247, 111, 1) 100%);
 
   --text-primary: #fff;
   --text-secondary: #1E1E1E;
@@ -21,6 +22,7 @@
   --text-secondary: var(--text-secondary);
   --gradient: var(--gradient);
   --gradient-2: var(--gradient-2);
+  --gradient-whatsapp: var(--gradient-whatsapp);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,4 +53,12 @@ body{
 
 .shadow-table {
   box-shadow: 0 0 30px 0px #EBAF5626;
+}
+
+.bg-gradient{
+  background: var(--gradient);
+}
+
+.bg-gradient-whatsapp{
+  background: var(--gradient-whatsapp);
 }

@@ -6,8 +6,7 @@ export default function TableBenefits() {
           Veja como o TegPro transforma sua realidade
         </h1>
         <p className="py-5 sm:text-[16px] text-[14px] text-center">
-          Mesmo sem experiência, você vai sair do curso com anúncios rodando e
-          vendas acontecendo.
+          Em poucas semanas, você sai da confusão para a conversão — com clareza, apoio e resultado prático.
         </p>
 
         <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-10 shadow-table bg-black flex-wrap">
@@ -41,7 +40,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Confuso sobre o que vender</p>
+                <p>Não sei o que vender nem pra quem</p>
               </li>
               <li className="flex items-center gap-3 p-8 border-b border-[#fff]">
                 <svg
@@ -70,7 +69,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Nunca criou um anúncio</p>
+                <p>Não faço ideia de onde começar</p>
               </li>
               <li className="flex items-center gap-3 p-8 border-b border-[#fff]">
                 <svg
@@ -99,7 +98,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Tentou sozinho</p>
+                <p>Só pra mim que não dá certo</p>
               </li>
               <li className="flex items-center gap-3 p-8">
                 <svg
@@ -128,7 +127,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Não sabe usar o digital</p>
+                <p>Não sei como fazer anúncios que chamem atenção</p>
               </li>
             </ul>
           </div>
@@ -161,7 +160,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Nicho validado com estratégia</p>
+                <p>Nicho validado e público certo definido</p>
               </li>
               <li className="flex items-center gap-3 p-8 border-b border-[var(--primary)]">
                 <svg
@@ -188,7 +187,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Anúncio rodando e vendendo</p>
+                <p>Canais de venda dominados e funcionando</p>
               </li>
               <li className="flex items-center gap-3 p-8 border-b border-[var(--primary)]">
                 <svg
@@ -215,7 +214,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Mentoria, suporte e clareza</p>
+                <p>Vendendo com estratégia pelo Instagram e Mercado Livre</p>
               </li>
               <li className="flex items-center gap-3 p-8 border-[var(--primary)]">
                 <svg
@@ -242,7 +241,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Vendendo pelo Instagram e Mercado Livre</p>
+                <p>Anúncio rodando com técnica e resultado</p>
               </li>
             </ul>
           </div>

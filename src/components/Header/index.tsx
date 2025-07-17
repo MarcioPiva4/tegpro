@@ -28,11 +28,11 @@ export default function Header() {
         fixed w-full z-[10000] border-b-[3px] border-black transition-colors duration-300
         ${scrolledPast ? "bg-black" : "bg-black/50"}
       `}>
-      <div className="flex lg:justify-between justify-center items-center px-8">
+      <div className="flex sm:justify-between justify-center items-center px-8 flex-wrap gap-2">
         <a href="/">
           <svg
             width="203"
-            height="88"
+            height="70"
             viewBox="0 0 203 88"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -46,21 +46,7 @@ export default function Header() {
             />
           </svg>
         </a>
-
-        <div className="items-center gap-8 lg:flex hidden">
-          <ul className="flex gap-3">
-            <li>
-              <a href="#">Problemas</a>
-            </li>
-            <li>
-              <a href="#">Transformação</a>
-            </li>
-            <li>
-              <a href="#">Parceiros</a>
-            </li>
-          </ul>
-          <LinkButton text="Quero garantir minha vaga agora"></LinkButton>
-        </div>
+        <div className="sm:block hidden"><LinkButton text="Quero garantir minha vaga agora"></LinkButton></div>
       </div>
     </header>
   );

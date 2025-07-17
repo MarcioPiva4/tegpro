@@ -4,10 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
+import LinkButton from "../Link";
 
 export default function SectionImages() {
   return (
-    <section className="py-10">
+    <section className="py-10 bg-[#060606]">
+      <h1 className="font-semibold sm:text-[32px] text-[24px] text-gradient text-center mb-5">
+        Alunos TegPro
+      </h1>
       <Swiper
         slidesPerView={4.5}
         breakpoints={{
@@ -21,7 +25,7 @@ export default function SectionImages() {
           disableOnInteraction: false,
         }}>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno1.png"}
               width={300}
@@ -31,7 +35,7 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno2.png"}
               width={300}
@@ -41,7 +45,7 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno3.png"}
               width={300}
@@ -51,7 +55,7 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno4.png"}
               width={300}
@@ -61,7 +65,7 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno1.png"}
               width={300}
@@ -71,7 +75,7 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)]">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
               src={"/imagem-aluno2.png"}
               width={300}
@@ -81,6 +85,20 @@ export default function SectionImages() {
           </figure>
         </SwiperSlide>
       </Swiper>
+      <div className="flex items-center justify-center py-10 my-5 px-5 gap-7 text-[#F0F0F0] flex-wrap">
+        <div className="max-w-[450px] sm:text-start text-center">
+          <h2 className="text-gradient sm:text-[32px] text-[24px] font-bold mb-3">
+            Não é sorte. É decisão.
+          </h2>
+          <p className="sm:text-[16px] text-[14px]">
+            Esses alunos escolheram agir — e hoje sabem exatamente como vender na internet.
+            <strong>Você está a uma escolha de distância.</strong>
+          </p>
+        </div>
+        <div>
+          <LinkButton text="QUERO APRENDER A VENDER ONLINE"></LinkButton>
+        </div>
+      </div>
     </section>
   );
 }

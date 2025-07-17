@@ -16,48 +16,30 @@ const faqs = [
   },
   {
     id: 3,
-    question: "Vou sair do curso já vendendo?",
-    answer:
-      "Sim — essa é a proposta. Durante as aulas, você vai criar seus anúncios, aplicar as estratégias e começar a vender de verdade, com o acompanhamento do mentor.",
-  },
-  {
-    id: 4,
     question: "Em quais plataformas eu vou aprender a vender?",
     answer:
       "Você aprenderá a vender no Mercado Livre, Instagram e Facebook, além de entender como funciona o e-commerce de verdade.",
   },
   {
-    id: 5,
-    question: "E se eu não gostar do curso?",
-    answer:
-      "Você tem 7 dias de garantia total. Se participar da primeira aula e não sentir que o curso é pra você, devolvemos 100% do valor investido. Sem burocracia.",
-  },
-  {
-    id: 6,
-    question: "Qual o valor e forma de pagamento?",
-    answer:
-      "O investimento é de R$ 897,00 em até 10x no cartão, ou R$ 797,00 à vista via Pix. Inclui certificado, grupo de suporte e materiais bônus.",
-  },
-  {
-    id: 7,
+    id: 4,
     question: "Quantas pessoas tem na turma?",
     answer:
       "As turmas são reduzidas, para garantir atenção individual. Vagas realmente limitadas.",
   },
   {
-    id: 8,
+    id: 5,
     question: "Recebo algum certificado?",
     answer:
       "Sim! Ao final do curso, você recebe um certificado de conclusão reconhecendo sua participação e habilidades desenvolvidas.",
   },
   {
-    id: 9,
+    id: 6,
     question: "Preciso ter um produto físico já?",
     answer:
       "Não precisa. Você pode participar mesmo sem produto. Vamos te ensinar como validar nichos e identificar produtos com demanda real.",
   },
   {
-    id: 10,
+    id: 7,
     question: "Tem suporte fora das aulas?",
     answer:
       "Sim. Você terá acesso a um grupo exclusivo no WhatsApp com o mentor e os colegas para tirar dúvidas e compartilhar resultados.",
