@@ -8,7 +8,7 @@ export default function SectionLearn(){
 
             <div className="flex flex-col px-5 sm:px-10 gap-5">
 
-                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative">
+                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col-reverse relative">
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Introdução ao E-commerce e Identificação de Nichos e Oportunidades</h1>
                         <p className="sm:text-[16px] text-[14px]">Descubra como funciona o jogo do e-commerce e aprenda a identificar nichos lucrativos e produtos com alta demanda. Saia da dúvida e comece com clareza e direção.</p>
@@ -39,7 +39,7 @@ export default function SectionLearn(){
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative">
+                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col-reverse relative">
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Marketing Digital e Estratégias de Publicidade</h1>
                         <p className="sm:text-[16px] text-[14px]">Saiba como impulsionar seus produtos com campanhas no Mercado Livre, Instagram e Facebook. Você vai aprender a investir pouco e atrair muitos — mesmo com orçamento apertado.</p>
@@ -66,7 +66,7 @@ export default function SectionLearn(){
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col">
+                <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col-reverse">
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Estrutura Organizacional e Papel do Gerente de E-commerce</h1>
                         <p className="sm:text-[16px] text-[14px] mb-3">Você vai aprender como montar a estrutura do seu e-commerce, organizar processos e agir como um verdadeiro gerente, pronto para crescer com consistência.</p>
