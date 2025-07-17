@@ -1,6 +1,6 @@
 "use client";
 
-export default function LinkButton({ text }: { text: string }) {
+export default function LinkButton({ text, shadow }: { text: string; shadow?: boolean }) {
   return (
     <button
       onClick={() => {
@@ -8,7 +8,7 @@ export default function LinkButton({ text }: { text: string }) {
         window.dispatchEvent(new HashChangeEvent("hashchange"));
       }}
       aria-label="Link para abrir o formulario"
-      className="text-black font-bold px-4 py-2 rounded-lg border border-[var(--primary)] uppercase sm:text-[14px] text-[12px] whitespace-nowrap cursor-pointer"
+      className={`text-black font-bold px-4 py-2 rounded-lg border border-[var(--primary)] uppercase sm:text-[14px] text-[12px] whitespace-nowrap cursor-pointer transition-all hover:text-white shadow-button-hover ${shadow && 'shadow-button'}`}
       style={{ background: "var(--gradient)" }}>
       {text}
     </button>

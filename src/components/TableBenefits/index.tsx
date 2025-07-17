@@ -11,7 +11,7 @@ export default function TableBenefits() {
 
         <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-5 sm:p-10 shadow-table bg-black sm:flex-row flex-col">
           <div className="flex-1">
-            <h2 className="text-center text-gradient-2 font-semibold  sm:text-[24px] text-[20px] uppercase mb-5">Antes</h2>
+            <h2 className="text-center text-gradient-2 font-semibold  sm:text-[24px] text-[20px] uppercase mb-5">Antes  do tegpro</h2>
             <ul className="border border-[#fff] rounded-lg bg-[#1A1A1A]">
               <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[#fff] min-h-[100px]">
                 <svg
@@ -137,7 +137,7 @@ export default function TableBenefits() {
           </div>
 
           <div className="flex-1">
-            <h2 className="text-center text-gradient font-semibold sm:text-[24px] text-[20px] uppercase mb-5">Depois</h2>
+            <h2 className="text-center text-gradient font-semibold sm:text-[24px] text-[20px] uppercase mb-5">Depois do tegpro</h2>
             <ul className="border border-[var(--primary)] rounded-lg bg-[#1A1A1A]">
               <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[var(--primary)] min-h-[100px]">
                 <svg

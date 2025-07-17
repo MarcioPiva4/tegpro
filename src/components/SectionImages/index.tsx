@@ -102,7 +102,7 @@ export default function SectionImages() {
           </p>
         </div>
         <div>
-          <LinkButton text="QUERO APRENDER A VENDER ONLINE"></LinkButton>
+          <LinkButton text="QUERO APRENDER A VENDER ONLINE" shadow></LinkButton>
         </div>
       </div>
     </section>

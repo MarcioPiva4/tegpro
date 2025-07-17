@@ -6,7 +6,7 @@ export default function SectionLearn(){
         <section className="py-10">
             <h1 className="font-semibold sm:text-[32px] text-[24px] text-gradient text-center mb-10">O que você vai aprender:</h1>
 
-            <div className="flex flex-col px-10 gap-5">
+            <div className="flex flex-col px-5 sm:px-10 gap-5">
 
                 <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative">
                     <div className="max-w-[450px] w-full">

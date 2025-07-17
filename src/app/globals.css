@@ -55,6 +55,14 @@ body{
   box-shadow: 0 0 30px 0px #EBAF5626;
 }
 
+.shadow-button{
+  box-shadow: 0px 4px 12px 0px #F2D95D66;
+}
+
+.shadow-button-hover:hover{
+  box-shadow: 0px 4px 12px 0px #F2D95D66;
+}
+
 .bg-gradient{
   background: var(--gradient);
 }

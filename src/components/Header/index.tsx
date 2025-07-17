@@ -4,29 +4,28 @@ import LinkButton from "../Link";
 import { useEffect, useState } from "react";
 
 export default function Header() {
-  const [scrolledPast, setScrolledPast] = useState(false);
+  // const [scrolledPast, setScrolledPast] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const firstSection = document.querySelector(
-        ".first-section"
-      ) as HTMLElement;
-      if (firstSection) {
-        const triggerHeight = firstSection.offsetHeight;
-        setScrolledPast(window.scrollY > triggerHeight);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const firstSection = document.querySelector(
+  //       ".first-section"
+  //     ) as HTMLElement;
+  //     if (firstSection) {
+  //       const triggerHeight = firstSection.offsetHeight;
+  //       setScrolledPast(window.scrollY > triggerHeight);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
+  //   window.addEventListener("scroll", handleScroll);
+  //   handleScroll();
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
   return (
     <header
       className={`
-        fixed w-full z-[10000] border-b-[3px] border-black transition-colors duration-300
-        ${scrolledPast ? "bg-black" : "bg-black/50"}
+        fixed w-full z-[10000] border-b-[3px] border-black transition-colors duration-300 bg-black/50
       `}>
       <div className="flex sm:justify-between justify-center items-center px-8 flex-wrap gap-2">
         <a href="/" aria-label="Logo da empresa Tegbe" >

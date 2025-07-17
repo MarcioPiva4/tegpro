@@ -9,9 +9,10 @@ export default function Footer(){
                     <p className="sm:text-[16px] text-[14px]">Com o TegPro, você tem método, apoio e resultado real. <strong>Essa é sua chance de vender de verdade.</strong></p>
                 </div>
                 <div>
-                    <LinkButton text="Quero transformar meu negócio"></LinkButton>
+                    <LinkButton text="Quero transformar meu negócio" shadow></LinkButton>
                 </div>
             </div>
+            <div className="h-[30px] bg-[#21244D] w-full"></div>
         </footer>
     )
 }
