@@ -13,16 +13,15 @@ export default function SectionLearn(){
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Introdução ao E-commerce e Identificação de Nichos e Oportunidades</h1>
                         <p className="sm:text-[16px] text-[14px]">Descubra como funciona o jogo do e-commerce e aprenda a identificar nichos lucrativos e produtos com alta demanda. Saia da dúvida e comece com clareza e direção.</p>
                     </div>
-                    <div>
+                    <div className="relative">
                         <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
-                    </div>
-
-                    <div className="absolute z-[-1] bottom-[94px] right-[-40px] sm:block hidden">
-                        <Image src={'/lines-1.avif'} alt="desktop" width={400} height={700} loading="lazy"></Image>
+                        <div className="absolute z-[-1] bottom-[94px] right-[-40px] sm:block hidden">
+                            <Image src={'/lines-1.png'} alt="desktop" width={400} height={700} loading="lazy"></Image>
+                        </div>
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-130px] sm:block hidden">
-                        <Image src={'/lines-2.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
+                        <Image src={'/lines-2.png'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
@@ -36,7 +35,7 @@ export default function SectionLearn(){
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-140px] sm:block hidden">
-                        <Image src={'/lines-3.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
+                        <Image src={'/lines-3.png'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
@@ -49,7 +48,7 @@ export default function SectionLearn(){
                         <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="absolute z-[-1] bottom-[-140px] sm:block hidden">
-                        <Image src={'/lines-2.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
+                        <Image src={'/lines-2.png'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
@@ -63,7 +62,7 @@ export default function SectionLearn(){
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-290px] sm:block hidden">
-                        <Image src={'/lines-4.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
+                        <Image src={'/lines-4.png'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 

@@ -1,7 +1,7 @@
 export default function TableBenefits() {
   return (
     <section className="py-10 mb-10">
-      <div className="w-full flex justify-center items-center flex-col px-10 relative">
+      <div className="w-full flex justify-center items-center flex-col px-5 sm:px-10 relative">
         <h1 className="font-semibold sm:text-[32px] text-[24px] text-gradient text-center">
           Veja como o TegPro transforma sua realidade
         </h1>
@@ -9,17 +9,18 @@ export default function TableBenefits() {
           Em poucas semanas, você sai da confusão para a conversão — com clareza, apoio e resultado prático.
         </p>
 
-        <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-5 sm:p-10 shadow-table bg-black flex-wrap">
+        <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-5 sm:p-10 shadow-table bg-black sm:flex-row flex-col">
           <div className="flex-1">
             <h2 className="text-center text-gradient-2 font-semibold  sm:text-[24px] text-[20px] uppercase mb-5">Antes</h2>
             <ul className="border border-[#fff] rounded-lg bg-[#1A1A1A]">
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[#fff] min-h-[100px]">
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="flex-1">
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"
@@ -40,14 +41,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Não sei o que vender nem pra quem</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Não sei o que vender nem pra quem</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[#fff] min-h-[100px]">
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     fillRule="evenodd"
@@ -69,14 +71,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Não faço ideia de onde começar</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Não faço ideia de onde começar</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[#fff] min-h-[100px]">
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     fillRule="evenodd"
@@ -98,14 +101,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Só pra mim que não dá certo</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Só pra mim que não dá certo</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8">
+              <li className="flex items-center gap-3 p-4 sm:p-6 min-h-[100px]">
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     fillRule="evenodd"
@@ -127,7 +131,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Não sei como fazer anúncios que chamem atenção</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Não sei como fazer anúncios que chamem atenção</p>
               </li>
             </ul>
           </div>
@@ -135,12 +139,13 @@ export default function TableBenefits() {
           <div className="flex-1">
             <h2 className="text-center text-gradient font-semibold sm:text-[24px] text-[20px] uppercase mb-5">Depois</h2>
             <ul className="border border-[var(--primary)] rounded-lg bg-[#1A1A1A]">
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[var(--primary)] min-h-[100px]">
                 <svg
                   width="31"
                   height="25"
                   viewBox="0 0 31 25"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.068 18.5534L3.17503 11.3389L0 14.2128L10.068 24.2807L31 2.9267L27.9199 0.71875L10.068 18.5534Z"
@@ -160,14 +165,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Nicho validado e público certo definido</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Nicho validado e público certo definido</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[var(--primary)] min-h-[100px]">
                 <svg
                   width="31"
                   height="25"
                   viewBox="0 0 31 25"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.068 18.5534L3.17503 11.3389L0 14.2128L10.068 24.2807L31 2.9267L27.9199 0.71875L10.068 18.5534Z"
@@ -187,14 +193,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Canais de venda dominados e funcionando</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Canais de venda dominados e funcionando</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[var(--primary)] min-h-[100px]">
                 <svg
                   width="31"
                   height="25"
                   viewBox="0 0 31 25"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.068 18.5534L3.17503 11.3389L0 14.2128L10.068 24.2807L31 2.9267L27.9199 0.71875L10.068 18.5534Z"
@@ -214,14 +221,15 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Vendendo com estratégia pelo Instagram e Mercado Livre</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Vendendo com estratégia pelo Instagram e Mercado Livre</p>
               </li>
-              <li className="flex items-center gap-3 p-4 sm:p-8 border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-6 border-[var(--primary)] min-h-[100px]">
                 <svg
                   width="31"
                   height="25"
                   viewBox="0 0 31 25"
                   fill="none"
+                  className="flex-1"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.068 18.5534L3.17503 11.3389L0 14.2128L10.068 24.2807L31 2.9267L27.9199 0.71875L10.068 18.5534Z"
@@ -241,7 +249,7 @@ export default function TableBenefits() {
                     </linearGradient>
                   </defs>
                 </svg>
-                <p>Anúncio rodando com técnica e resultado</p>
+                <p className="flex-[10] text-[14px] lg:text-[16px]">Anúncio rodando com técnica e resultado</p>
               </li>
             </ul>
           </div>
