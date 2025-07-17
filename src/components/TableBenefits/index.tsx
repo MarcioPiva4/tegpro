@@ -5,14 +5,14 @@ export default function TableBenefits() {
         <h1 className="font-semibold sm:text-[32px] text-[24px] text-gradient text-center">
           Veja como o TegPro transforma sua realidade
         </h1>
-        <p className="py-5 sm:text-[16px] text-[14px] text-center">
+        <p className="py-5 sm:text-[16px] text-[14px] text-center mb-10">
           Em poucas semanas, você sai da confusão para a conversão — com clareza, apoio e resultado prático.
         </p>
 
         <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-5 sm:p-10 shadow-table bg-black sm:flex-row flex-col">
           <div className="flex-1">
             <h2 className="text-center text-gradient-2 font-semibold  sm:text-[24px] text-[20px] uppercase mb-5">Antes  do tegpro</h2>
-            <ul className="border border-[#fff] rounded-lg bg-[#1A1A1A]">
+            <ul className="border border-[#fff] rounded-lg bg-[#0A0908]">
               <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[#fff] min-h-[100px]">
                 <svg
                   width="20"
@@ -138,7 +138,7 @@ export default function TableBenefits() {
 
           <div className="flex-1">
             <h2 className="text-center text-gradient font-semibold sm:text-[24px] text-[20px] uppercase mb-5">Depois do tegpro</h2>
-            <ul className="border border-[var(--primary)] rounded-lg bg-[#1A1A1A]">
+            <ul className="border border-[var(--primary)] rounded-lg bg-[#0E0B05]">
               <li className="flex items-center gap-3 p-4 sm:p-6 border-b border-[var(--primary)] min-h-[100px]">
                 <svg
                   width="31"
@@ -255,7 +255,7 @@ export default function TableBenefits() {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center absolute z-[-1]">
+        <div className="w-full flex justify-center items-center absolute z-[-1] line-none">
           <svg className="w-full" width="1728" height="327" viewBox="0 0 1728 327" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 265.5C80 114.5 166 445.5 206.5 173C247 -99.5 -97.5 369.5 455.5 249C455.5 249 1840.5 98 1556 311C1446.1 393.283 1562.17 47.5971 1725.5 3" stroke="url(#paint0_linear_94_5743)" strokeWidth="5" strokeLinecap="round"/>
             <defs>

@@ -7,7 +7,7 @@
 
   --gradient: linear-gradient(90deg,rgba(99, 79, 39, 1) 0%, rgba(201, 160, 80, 1) 50%, rgba(99, 79, 39, 1) 100%);
   --gradient-2: linear-gradient(90deg,rgba(138, 138, 138, 1) 0%, rgba(240, 240, 240, 1) 50%, rgba(138, 138, 138, 1) 100%);
-  --gradient-whatsapp: linear-gradient(180deg,rgba(0, 190, 50, 1) 0%, rgba(64, 247, 111, 1) 100%);
+  --gradient-whatsapp:  linear-gradient(180deg, rgba(64, 247, 111, 0.5) 0%, rgba(0, 190, 50, 0.5) 100%);
 
   --text-primary: #fff;
   --text-secondary: #1E1E1E;
@@ -63,4 +63,14 @@ body{
 
 .bg-gradient-whatsapp{
   background: var(--gradient-whatsapp);
+}
+
+.bg-gradient-whatsapp:hover{
+  background: #40F76F;
+}
+
+@media screen and (max-width: 1330px){
+  .line-none{
+    display: none;
+  }
 }
