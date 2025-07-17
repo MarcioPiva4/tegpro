@@ -25,6 +25,7 @@ export default function About() {
                                         ? 'bg-gradient text-black'
                                         : 'bg-[#444] text-[#ccc]'
                                 }`}
+                                aria-label="Botão fundador da tegbe"
                             >
                                 Fundador da TegBe
                             </button>
@@ -35,6 +36,7 @@ export default function About() {
                                         ? 'bg-gradient text-black'
                                         : 'bg-[#444] text-[#ccc]'
                                 }`}
+                                aria-label="Consultor oficial do mercado livre"
                             >
                                 Consultor oficial do Mercado Livre
                             </button>

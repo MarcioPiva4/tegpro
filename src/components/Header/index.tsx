@@ -29,7 +29,7 @@ export default function Header() {
         ${scrolledPast ? "bg-black" : "bg-black/50"}
       `}>
       <div className="flex sm:justify-between justify-center items-center px-8 flex-wrap gap-2">
-        <a href="/">
+        <a href="/" aria-label="Logo da empresa Tegbe" >
           <svg
             width="203"
             height="70"

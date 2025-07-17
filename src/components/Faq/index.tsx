@@ -71,7 +71,9 @@ export default function Faq() {
               <button
                 className={`cursor-pointer transition-all ${
                   e.id == open.id && open.open ? "rotate-[-90deg]" : ""
-                }`}>
+                }`}
+                aria-label="Botão seta do faq, não aberto"
+                >
                 <svg
                   width="10"
                   height="15"

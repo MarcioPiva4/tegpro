@@ -143,6 +143,7 @@ export default function Assessment() {
         </Swiper>
 
         <button
+          aria-label="Botão anterior do carrossel"
           ref={prevRef}
           className="swiper-button-prev-custom absolute left-[-20px] top-[140px] z-10 bg-white w-[50px] h-[50px] rounded-full flex justify-center items-center cursor-pointer">
           <svg
@@ -160,6 +161,7 @@ export default function Assessment() {
           </svg>
         </button>
         <button
+          aria-label="Botão proximo do carrossel"
           ref={nextRef}
           className="swiper-button-prev-custom absolute right-[-20px] top-[140px] z-10 bg-white w-[50px] h-[50px] rounded-full flex justify-center items-center cursor-pointer">
           <svg

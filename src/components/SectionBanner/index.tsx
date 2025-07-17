@@ -13,7 +13,7 @@ export default function SectionBanner(){
                 </div>
 
                 <div className="absolute bottom-[50px] bg-black/50 py-2 px-5 rounded-xl mx-5">
-                    <h4 className="font-bold sm:text-[16px] text-[14px]">  Curso Presencial | Início: 12 de Agosto | Hotel Momax - Marília/SP </h4>
+                    <p className="font-bold sm:text-[16px] text-[14px]">  Curso Presencial | Início: 12 de Agosto | Hotel Momax - Marília/SP </p>
                 </div>
                 
             </div>

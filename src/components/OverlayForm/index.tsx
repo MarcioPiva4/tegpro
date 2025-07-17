@@ -32,6 +32,7 @@ export default function OverlayForm() {
   return (
     <div className="bg-black fixed top-0 left-0 flex justify-center items-center w-full h-full z-[100000]">
       <button
+        aria-label="Botão de voltar a página inicial"
         className="absolute top-[40px] left-[40px] w-[50px] h-[50px] flex justify-center items-center cursor-pointer"
         onClick={() => {
           history.pushState(null, "", window.location.pathname + window.location.search);
