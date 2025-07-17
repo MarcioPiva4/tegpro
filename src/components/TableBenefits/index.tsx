@@ -9,11 +9,11 @@ export default function TableBenefits() {
           Em poucas semanas, você sai da confusão para a conversão — com clareza, apoio e resultado prático.
         </p>
 
-        <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-10 shadow-table bg-black flex-wrap">
+        <div className="w-full max-w-[1000px] border border-[var(--primary)] rounded-lg flex gap-5 p-5 sm:p-10 shadow-table bg-black flex-wrap">
           <div className="flex-1">
             <h2 className="text-center text-gradient-2 font-semibold  sm:text-[24px] text-[20px] uppercase mb-5">Antes</h2>
             <ul className="border border-[#fff] rounded-lg bg-[#1A1A1A]">
-              <li className="flex items-center gap-3 p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
                 <svg
                   width="20"
                   height="20"
@@ -42,7 +42,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Não sei o que vender nem pra quem</p>
               </li>
-              <li className="flex items-center gap-3 p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
                 <svg
                   width="20"
                   height="20"
@@ -71,7 +71,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Não faço ideia de onde começar</p>
               </li>
-              <li className="flex items-center gap-3 p-8 border-b border-[#fff]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[#fff]">
                 <svg
                   width="20"
                   height="20"
@@ -100,7 +100,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Só pra mim que não dá certo</p>
               </li>
-              <li className="flex items-center gap-3 p-8">
+              <li className="flex items-center gap-3 p-4 sm:p-8">
                 <svg
                   width="20"
                   height="20"
@@ -135,7 +135,7 @@ export default function TableBenefits() {
           <div className="flex-1">
             <h2 className="text-center text-gradient font-semibold sm:text-[24px] text-[20px] uppercase mb-5">Depois</h2>
             <ul className="border border-[var(--primary)] rounded-lg bg-[#1A1A1A]">
-              <li className="flex items-center gap-3 p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
                 <svg
                   width="31"
                   height="25"
@@ -162,7 +162,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Nicho validado e público certo definido</p>
               </li>
-              <li className="flex items-center gap-3 p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
                 <svg
                   width="31"
                   height="25"
@@ -189,7 +189,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Canais de venda dominados e funcionando</p>
               </li>
-              <li className="flex items-center gap-3 p-8 border-b border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-b border-[var(--primary)]">
                 <svg
                   width="31"
                   height="25"
@@ -216,7 +216,7 @@ export default function TableBenefits() {
                 </svg>
                 <p>Vendendo com estratégia pelo Instagram e Mercado Livre</p>
               </li>
-              <li className="flex items-center gap-3 p-8 border-[var(--primary)]">
+              <li className="flex items-center gap-3 p-4 sm:p-8 border-[var(--primary)]">
                 <svg
                   width="31"
                   height="25"

@@ -21,7 +21,7 @@ export default function SectionImages() {
         modules={[Autoplay]}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 2000,
           disableOnInteraction: false,
         }}>
         <SwiperSlide>
