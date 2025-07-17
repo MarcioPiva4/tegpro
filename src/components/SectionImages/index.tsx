@@ -25,69 +25,123 @@ export default function SectionImages() {
           disableOnInteraction: false,
         }}>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno1.avif"}
               width={300}
               height={300}
               alt="aluno 1"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno2.avif"}
               width={300}
               height={300}
               alt="aluno 2"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno3.avif"}
               width={300}
               height={300}
               alt="aluno 3"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno4.avif"}
               width={300}
               height={300}
               alt="aluno 4"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno1.avif"}
               width={300}
               height={300}
               alt="aluno 5"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
+          <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center relative">
             <Image
               src={"/imagem-aluno2.avif"}
               width={300}
               height={300}
               alt="aluno 5"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"></Image>
+            <div className="absolute top-0 w-full h-full">
+              <Image
+                src={"/overlay.png"}
+                alt="overlay imagem"
+                width={500}
+                height={500}
+                className="w-full h-full object-fill"
+                loading="lazy"></Image>
+            </div>
           </figure>
         </SwiperSlide>
       </Swiper>
@@ -97,7 +151,8 @@ export default function SectionImages() {
             Não é sorte. É decisão.
           </h2>
           <p className="sm:text-[16px] text-[14px]">
-            Esses alunos escolheram agir — e hoje sabem exatamente como vender na internet.
+            Esses alunos escolheram agir — e hoje sabem exatamente como vender
+            na internet.
             <strong>Você está a uma escolha de distância.</strong>
           </p>
         </div>
