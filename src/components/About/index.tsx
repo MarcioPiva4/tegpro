@@ -63,10 +63,11 @@ export default function About() {
 
                 <div className="flex justify-center items-center mt-10 lg:mt-0">
                     <Image
-                        src={'/doni.png'}
+                        src={'/doni.avif'}
                         alt="Donizete Caetano, CEO Tegbe"
                         width={497}
                         height={872}
+                        loading="lazy"
                     />
                 </div>
             </div>

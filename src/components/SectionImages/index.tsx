@@ -27,61 +27,67 @@ export default function SectionImages() {
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno1.png"}
+              src={"/imagem-aluno1.avif"}
               width={300}
               height={300}
               alt="aluno 1"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno2.png"}
+              src={"/imagem-aluno2.avif"}
               width={300}
               height={300}
               alt="aluno 2"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno3.png"}
+              src={"/imagem-aluno3.avif"}
               width={300}
               height={300}
               alt="aluno 3"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno4.png"}
+              src={"/imagem-aluno4.avif"}
               width={300}
               height={300}
               alt="aluno 4"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno1.png"}
+              src={"/imagem-aluno1.avif"}
               width={300}
               height={300}
               alt="aluno 5"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
         <SwiperSlide>
           <figure className="border-[2px] border-[var(--primary)] flex justify-center items-center">
             <Image
-              src={"/imagem-aluno2.png"}
+              src={"/imagem-aluno2.avif"}
               width={300}
               height={300}
               alt="aluno 5"
-              className="object-cover"></Image>
+              className="object-cover"
+              loading="lazy"></Image>
           </figure>
         </SwiperSlide>
       </Swiper>

@@ -5,7 +5,7 @@ import LinkButton from "../Link"
 export default function SectionBanner(){
     return(
         <section className="first-section">
-            <div className="bg-[url('/background.png')] bg-cover bg-center text-white h-screen w-full flex justify-center items-center flex-col p-3 sm:p-5 relative">
+            <div className="bg-[url('/background.avif')] bg-cover bg-center text-white h-screen w-full flex justify-center items-center flex-col p-3 sm:p-5 relative">
                 <div className="text-center max-w-3xl">
                     <h1 className="font-black sm:text-[32px] text-[24px]">Você não precisa entender de internet para começar a vender online</h1>
                     <p className="py-7 sm:text-[16px] text-[14px]">Descubra o passo a passo completo — do zero à sua primeira venda no e-commerce. Produto, fornecedor, loja, tráfego e atendimento: tudo explicado de forma simples, prática e sem enrolação.</p>

@@ -14,21 +14,21 @@ export default function SectionLearn(){
                         <p className="sm:text-[16px] text-[14px]">Descubra como funciona o jogo do e-commerce e aprenda a identificar nichos lucrativos e produtos com alta demanda. Saia da dúvida e comece com clareza e direção.</p>
                     </div>
                     <div>
-                        <Image src={'/desktop.png'} alt="desktop" width={1000} height={660}></Image>
+                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
 
                     <div className="absolute z-[-1] bottom-[94px] right-[-40px] sm:block hidden">
-                        <Image src={'/lines-1.png'} alt="desktop" width={400} height={700}></Image>
+                        <Image src={'/lines-1.avif'} alt="desktop" width={400} height={700} loading="lazy"></Image>
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-130px] sm:block hidden">
-                        <Image src={'/lines-2.png'} alt="desktop" width={600} height={700}></Image>
+                        <Image src={'/lines-2.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
                 <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative">
                     <div>
-                        <Image src={'/desktop.png'} alt="desktop" width={1000} height={660}></Image>
+                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Criação de Anúncios de Alta Conversão</h1>
@@ -36,7 +36,7 @@ export default function SectionLearn(){
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-140px] sm:block hidden">
-                        <Image src={'/lines-3.png'} alt="desktop" width={600} height={700}></Image>
+                        <Image src={'/lines-3.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
@@ -46,16 +46,16 @@ export default function SectionLearn(){
                         <p className="sm:text-[16px] text-[14px]">Saiba como impulsionar seus produtos com campanhas no Mercado Livre, Instagram e Facebook. Você vai aprender a investir pouco e atrair muitos — mesmo com orçamento apertado.</p>
                     </div>
                     <div>
-                        <Image src={'/desktop.png'} alt="desktop" width={1000} height={660}></Image>
+                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="absolute z-[-1] bottom-[-140px] sm:block hidden">
-                        <Image src={'/lines-2.png'} alt="desktop" width={600} height={700}></Image>
+                        <Image src={'/lines-2.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
                 <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative">
                     <div>
-                        <Image src={'/desktop.png'} alt="desktop" width={1000} height={660}></Image>
+                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3">Atendimento e Reputação no E-commerce e Logística de Envio</h1>
@@ -63,7 +63,7 @@ export default function SectionLearn(){
                     </div>
 
                     <div className="absolute z-[-1] bottom-[-290px] sm:block hidden">
-                        <Image src={'/lines-4.png'} alt="desktop" width={600} height={700}></Image>
+                        <Image src={'/lines-4.avif'} alt="desktop" width={600} height={700} loading="lazy"></Image>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function SectionLearn(){
                         <LinkButton text="QUERO APRENDER A VENDER ONLINE"></LinkButton>
                     </div>
                     <div>
-                        <Image src={'/desktop.png'} alt="desktop" width={1000} height={660}></Image>
+                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                 </div>
 
