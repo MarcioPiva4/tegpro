@@ -50,8 +50,9 @@ export default function OverlayForm() {
           />
         </svg>
       </button>
-      <div className="formulario">
-        <h1 className="text-[40px]">IS WHERE THE FORM?</h1>
+      <div className="formulario p-10">
+        <h1 className="text-[32px] font-bold text-center mb-5">TegPro</h1>
+        <p className="mb-5 text-center">Preencha com seus dados e venha aprender com quem têm experiência</p>
       </div>
     </div>
   );
