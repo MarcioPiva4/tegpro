@@ -35,10 +35,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -55,10 +55,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -75,10 +75,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -95,10 +95,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -115,10 +115,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -135,10 +135,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -155,10 +155,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -175,10 +175,10 @@ export default function SectionImages() {
               loading="lazy"></Image>
             <div className="absolute top-0 w-full h-full">
               <Image
-                src={"/overlay.png"}
+                src={"/overlay.avif"}
                 alt="overlay imagem"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 className="w-full h-full object-fill"
                 loading="lazy"></Image>
             </div>
@@ -190,7 +190,7 @@ export default function SectionImages() {
           <h2 className="text-gradient sm:text-[32px] text-[24px] font-bold mb-3 text-center sm:text-start">
             Não é sorte. É decisão.
           </h2>
-          <p className="sm:text-[16px] text-[14px] text-center sm:text-start max-w-[500px]">
+          <p className="sm:text-[16px] text-[14px] text-center sm:text-start max-w-[300px]">
             Esses alunos escolheram agir — e hoje sabem exatamente como vender
             na internet.
             <strong>Você está a uma escolha de distância.</strong>
