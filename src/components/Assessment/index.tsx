@@ -26,7 +26,7 @@ export default function Assessment() {
   return (
     <section className="flex flex-col justify-center items-center p-5 py-10">
       <span className="text-[18px] text-[var(--primary)] uppercase mb-5">
-        está duvidando??
+        está duvidando?
       </span>
       <h1 className="sm:text-[32px] text-[24px] mb-10 uppercase max-w-[500px] text-center">Eles também duvidaram. Agora estão vendendo.</h1>
 

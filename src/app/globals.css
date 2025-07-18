@@ -74,3 +74,9 @@ body{
     display: none;
   }
 }
+
+@media screen and (min-width: 2050px) {
+  .tv-hidden{
+    display: none;
+  }
+}

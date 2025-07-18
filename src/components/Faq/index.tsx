@@ -59,7 +59,7 @@ export default function Faq() {
         </h2>
         {faqs.map((e) => (
           <div
-            className="flex flex-col w-full bg-[var(--secondary)] p-5 rounded-lg mb-3"
+            className="flex flex-col w-full bg-[var(--secondary)] p-5 rounded-lg mb-3 cursor-pointer"
             onClick={() =>
               open.id == e.id
                 ? setOpen({ id: null, open: false })
