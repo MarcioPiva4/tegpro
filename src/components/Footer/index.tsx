@@ -8,9 +8,7 @@ export default function Footer(){
                     <h2 className="text-gradient sm:text-[32px] text-[24px] font-bold mb-3">Chega de tentar sozinho</h2>
                     <p className="sm:text-[16px] text-[14px] text-center sm:text-start max-w-[500px]">Com o TegPro, você tem método, apoio e resultado real. <strong>Essa é sua chance de vender de verdade.</strong></p>
                 </div>
-                <div>
-                    <LinkButton text="Quero transformar meu negócio" shadow></LinkButton>
-                </div>
+                <LinkButton text="Quero transformar meu negócio" shadow full></LinkButton>
             </div>
         </footer>
     )

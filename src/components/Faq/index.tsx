@@ -53,7 +53,7 @@ export default function Faq() {
   });
   return (
     <section className="flex justify-center">
-      <div className="flex flex-col items-center max-w-[1000px] w-full px-5 py-10">
+      <div className="flex flex-col items-center max-w-[1000px] w-full px-5 py-10 rounded-3xl">
         <h2 className="text-center w-full text-white text-2xl font-semibold mb-8 sm:text-3xl">
           Perguntas frequentes
         </h2>

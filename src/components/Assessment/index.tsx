@@ -24,7 +24,7 @@ export default function Assessment() {
     }
   }, [swiperInstance]);
   return (
-    <section className="flex flex-col justify-center items-center p-5">
+    <section className="flex flex-col justify-center items-center p-5 py-10">
       <span className="text-[18px] text-[var(--primary)] uppercase mb-5">
         está duvidando??
       </span>

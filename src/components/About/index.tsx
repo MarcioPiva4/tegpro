@@ -12,7 +12,7 @@ export default function About() {
                     <h2 className="font-bold sm:text-[16px] text-[14px] pb-2">
                         Por que aprender com Doni muda o jogo?
                     </h2>
-                    <h1 className="font-bold sm:text-[32px] text-[24px] mb-10">
+                    <h1 className="font-bold sm:text-[48px] text-[36px] mb-10">
                         Donizete Caetano
                     </h1>
 
