@@ -9,11 +9,11 @@ import LinkButton from "../Link"
 
 export default function SectionBanner() {
     const bgImages = [
-        '/background-5.png',
-        '/background-1.png',
-        '/background-2.png',
-        '/background-3.png',
-        '/background-4.png'
+        '/background-5.webp',
+        '/background-1.webp',
+        '/background-2.webp',
+        '/background-3.webp',
+        '/background-4.webp'
     ]
 
     return (
