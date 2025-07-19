@@ -6,7 +6,7 @@ export default function About() {
     const [activeTab, setActiveTab] = useState(1);
 
     return (
-        <section className="px-10">
+        <section className="px-5 sm:px-10">
             <div className="flex flex-col-reverse lg:flex-row p-5 sm:p-10 gap-10 justify-center items-center">
                 <div>
                     <h2 className="font-bold sm:text-[16px] text-[14px] pb-2">
