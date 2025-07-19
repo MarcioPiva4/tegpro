@@ -17,7 +17,7 @@ export default function SectionBanner() {
     ]
 
     return (
-        <section className="first-section relative w-full h-[120vh] overflow-hidden">
+        <section className="first-section relative w-full h-[110vh] overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full z-0">
                 <Swiper
                     modules={[Autoplay]}

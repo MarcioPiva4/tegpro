@@ -14,7 +14,7 @@ export default function SectionLearn(){
                         <p className="sm:text-[16px] text-[14px] text-center sm:text-start">Descubra como funciona o jogo do <span className="text-nowrap">e-commerce</span> e aprenda a identificar nichos lucrativos e produtos com alta demanda. Saia da dúvida e comece com clareza e direção.</p>
                     </div>
                     <div className="relative">
-                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
+                        <Image src={'/desktop-1.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                         <div className="absolute z-[-1] bottom-[94px] right-[-40px] sm:block hidden xl:bottom-[250px] tv-hidden">
                             <Image src={'/lines-1.png'} alt="desktop" width={400} height={700} loading="lazy" className="xl:w-[700px]"></Image>
                         </div>
@@ -27,7 +27,7 @@ export default function SectionLearn(){
 
                 <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative py-10 sm:py-0">
                     <div>
-                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
+                        <Image src={'/desktop-2.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3 text-center sm:text-start">Criação de Anúncios de Alta Conversão</h1>
@@ -45,7 +45,7 @@ export default function SectionLearn(){
                         <p className="sm:text-[16px] text-[14px] text-center sm:text-start">Saiba como impulsionar seus produtos com campanhas no Mercado Livre, Instagram e Facebook. Você vai aprender a investir pouco e atrair muitos — mesmo com orçamento apertado.</p>
                     </div>
                     <div>
-                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
+                        <Image src={'/desktop-3.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="absolute z-[-1] bottom-[-140px] sm:block hidden xl:left-[200px] tv-hidden">
                         <Image src={'/lines-2.png'} alt="desktop" width={600} height={700} loading="lazy" className="xl:w-[950px]"></Image>
@@ -54,7 +54,7 @@ export default function SectionLearn(){
 
                 <div className="w-full flex justify-center items-center gap-10 sm:flex-row flex-col relative py-10 sm:py-0">
                     <div>
-                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
+                        <Image src={'/desktop-4.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                     <div className="max-w-[450px] w-full">
                         <h1 className="sm:text-[32px] text-[24px] font-extrabold mb-3 text-center sm:text-start">Atendimento e Reputação no <span className="text-nowrap">E-commerce</span> e Logística de Envio</h1>
@@ -73,7 +73,7 @@ export default function SectionLearn(){
                         <LinkButton text="QUERO APRENDER A VENDER ONLINE" full></LinkButton>
                     </div>
                     <div>
-                        <Image src={'/desktop.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
+                        <Image src={'/desktop-5.avif'} alt="desktop" width={1000} height={660} loading="lazy"></Image>
                     </div>
                 </div>
 
