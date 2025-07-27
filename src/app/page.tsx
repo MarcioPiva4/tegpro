@@ -4,7 +4,6 @@ import ButtonWhatsapp from "@/components/ButtonWhatsapp";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import OverlayForm from "@/components/OverlayForm";
 import SectionBanner from "@/components/SectionBanner";
 import SectionImages from "@/components/SectionImages";
 import SectionLearn from "@/components/SectionLearn";
@@ -27,7 +26,6 @@ export default function Home() {
       </main>
       <Footer></Footer>
       <ButtonWhatsapp></ButtonWhatsapp>
-      <OverlayForm></OverlayForm>
     </>
   );
 }
