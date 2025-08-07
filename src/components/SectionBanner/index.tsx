@@ -42,7 +42,7 @@ export default function SectionBanner({city}: {city: string}) {
             </div>
 
             <div className="relative z-10 flex justify-start pt-[125px] lg:pt-0 lg:justify-center items-center flex-col p-3 lg:p-5 h-full text-white text-center">
-                <div className="max-w-5xl mb-[70px] sm:mb-[200px]">
+                <div className="max-w-5xl sm:mb-[200px] lg:mb-[70px]">
                     <h1 className="font-black sm:text-[42px] text-[28px]">
                         Você não precisa entender de internet para começar a vender online
                     </h1>
