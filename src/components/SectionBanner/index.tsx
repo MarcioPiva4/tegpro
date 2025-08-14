@@ -55,7 +55,7 @@ export default function SectionBanner({city}: {city: string}) {
 
                 <div className="bg-black/50 py-2 px-5 rounded-xl mx-3 sm:mx-5 z-[1]">
                     <p className="font-bold sm:text-[16px] text-[14px]">
-                        {city != 'Garça' ? 'Curso Presencial | Início: 12 de Agosto | Hotel Momax - Marília/SP' : ' Curso Presencial | Início: 12 de Agosto | Rua Sargento Wilson Abel de Oliveira, 42 sala 21 - Ferraropolis - Garça/SP'}
+                        {city != 'Garça' ? 'Curso Presencial | Início: 16 de Setembro | Hotel Momax - Marília/SP' : ' Curso Presencial | Início: 11 de Setembro | Rua Sargento Wilson Abel de Oliveira, 42 sala 21 - Ferraropolis - Garça/SP'}
                     </p>
                 </div>
             </div>
