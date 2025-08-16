@@ -12,7 +12,7 @@ export default function Footer() {
                 <LinkButton text="Quero transformar meu negócio" shadow full></LinkButton>
             </div>
 
-            <div className="bg-[#060606] text-[#DEDEDE] py-[50px] border-t-[1px] border-[#F0F0F0] text-base">
+            <div className="bg-[#000000] text-[#DEDEDE] py-[50px] border-t-[1px] border-[#F0F0F0] text-base">
                 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
 
                     {/* Logo e Direitos */}
